@@ -1,39 +1,20 @@
-<!-- index.html -->
-
 <!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="Icone/icona-home.png" type="image/png">
-    <title>Home</title>
+    <title>Reindirizzamento a Home</title>
+    <script>
+        // Funzione per reindirizzare alla pagina home.html
+        function reindirizzaAHome() {
+            window.location.href = 'Home/home.html';
+        }
+
+        // Esegui la funzione quando la pagina è completamente caricata
+        window.onload = reindirizzaAHome;
+    </script>
 </head>
-<body class="background-home"> <!-- Aggiungi la classe background-home -->
-	
-<nav>
-    <ul>
-        <li-home class="current"><a href="index.html">Home</a></li-home>
-        <li-home><a href="Prodotti.html">Prodotti</a></li-home>
-        <li-home><a href="Informazioni.html">Informazioni</a></li-home>
-    </ul>
-</nav>
-
-<header>
-    <div class="name-section">
-        <h1>VarNails</h1>
-    </div>
-</header>
-
-<main>
-    <section class="scritta-home">
-        <h2>
-		Benvenuti nel mondo della bellezza! Sono Varna, esperta nell'arte della manicure, e vi invito a vivere un'esperienza di bellezza unica da provare sulle proprie unghie.
-		Presso il mio studio casalingo, offro servizi di manicure personalizzati, dalla semplice eleganza alla più creativa nail art.
-		Prenota ora un'appuntamento e trasformiamo le tue unghie con stile e cura. Sono impaziente di accoglierti nella mia oasi di bellezza personale!
-	</h2>
-    </section>
-</main>
-
+<body>
+    <p>Reindirizzamento a Home...</p>
 </body>
 </html>

@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-image: url('corsi-effettuati-immagini/sfondojpg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*Barra di navigazione*/
+nav {
+    background-color: #fff0f5;
+    color: #fff;
+    padding: 10px 0;
+    text-align: right;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 10;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #9370db;
+    position: relative;
+    transition: color 0.3s ease;
+    margin-right: 15px;
+}
+
+/* Evidenzia la pagina attuale in arancione */
+.nav-links a.current,
+.nav-links a:hover {
+    color: #000;
+    font-weight: bold;
+}
+/*Contenuto*/
+.main-container {
+    max-width: auto;
+    text-align: center;
+    padding: 20px;
+    color: #778899
+}
+
+.category-section h2 {
+    font-size: 28px;
+    text-align: left;
+    color: #778899
+}
+
+.course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.course-container img {
+    max-width: 30%; /* Larghezza massima delle immagini */
+    height: auto;
+    margin-bottom: 15px; /* Distanza tra le immagini */
+}
